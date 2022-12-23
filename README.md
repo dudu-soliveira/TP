@@ -1,6 +1,6 @@
 # User Stories
 1. Como um dono, eu quero criar um sistema de contas pessoais com diferentes permissões para diferenciar os funcionários dos clientes.
-2. Como um dono, eu quero padronizar os usuários e senhas das contas de funcionários para facilitar a sua separação em relação às contas de clientes.
+2. Como um dono, eu quero que os funcionários tenham "adm" escrito no fim de seus usuários e "Senha_administracao123" como suas senhas para padronizar suas contas, e facilitar a separação das contas pessoais e profissionais.
 3. Como um funcionário, eu quero poder modificar o cardápio para adicionar ou remover produtos, modificar preços e criar promoções.
 4. Como um funcionário, eu quero poder remover contas para eliminar bots e hacker que podem tentar acessar o sistema.
 5. Como um funcionário, eu quero poder visualizar todas as contas contidas no sistema. 
