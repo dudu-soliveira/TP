@@ -12,11 +12,10 @@ int main()
     Hamburguer* cheeseburguer_cordeiro_super =  new Hamburguer("Cheeseburguer_super", 54.90, "cordeiro", "de_hortela, maionese_artesanal", "cheddar", true, 2);
     Hamburguer* cheese_mignon =  new Hamburguer("Cheese_Mignon", 34.90, "tiras_de mignon", "maionese_artesanal", "cheddar", true, 1);
     Hamburguer* choripan =  new Hamburguer("Choripan", 39.90, "linguica_defumada", "maionese_artesanal, vinagrete", "prato", true, 1);
-    Hamburguer* cheese_chicken =  new Hamburguer("Cheese_chicken crispy", 39.90, "frango_empanado", "maionese_artesanal, vinagrete", "prato", true, 2);
+    Hamburguer* cheese_chicken =  new Hamburguer("Cheese_chicken_crispy", 39.90, "frango_empanado", "maionese_artesanal, vinagrete", "prato", true, 2);
     Hamburguer* vegetariano =  new Hamburguer("Vegetariano", 29.90, "vegano", "de_pimentas-verdes, creme_de_palmito", "prato", true, 0);
     Hamburguer* vegetariano_falafel =  new Hamburguer("Falafel_vegetariano", 34.90, "de_falafel", "maionese_artesanal", "cheddar", true, 0);
     
-    Bebida* teste = new Bebida("a", 12.21, 12, true, 12.3);
     Bebida* caipirinha = new Bebida("Caipirinha", 24.90, 300, true, 20);
 
     Pizza* calabresa = new Pizza("Calabresa", 40.00, "media", "com_queijo_cheddar", false, false);
@@ -32,11 +31,9 @@ int main()
     menu.adicionarProduto(cheese_chicken);
     menu.adicionarProduto(vegetariano);
     menu.adicionarProduto(vegetariano_falafel);
-    menu.adicionarProduto(teste);
     menu.adicionarProduto(caipirinha);
     menu.adicionarProduto(calabresa);
     menu.adicionarProduto(cordeiro);
-    menu.removerProduto("a");
 
     Sistema contas;
     Pessoal* dudu = new Pessoal("Dudu3000", "senha123", "Eduardo", "Rua_Minas_123", "dudu@gmail.com", 19, 12345678910, 912345678);
